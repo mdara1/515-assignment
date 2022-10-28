@@ -45,34 +45,5 @@ class UrinalsTest {
         expected.add(0);
         assertEquals(expected,urinals.countUrinals(list), "Should return 0");
     }
-    @Test
-    public void countUrinalsTestFour(){
-        System.out.println("===== Manoj Dara == TEST FOUR EXECUTED =====");
-        urinals urinals = new urinals();
-        List<String> list = new ArrayList<>();
-        list.add("00000");
-        List<Integer> expected = new ArrayList<>();
-        expected.add(3);
-        assertEquals(expected,urinals.countUrinals(list), "Should return 3");
-    }
-    @Test
-    public void countUrinalsTestFive(){
-        System.out.println("===== Manoj Dara == TEST FIVE EXECUTED =====");
-        urinals urinals = new urinals();
-        List<String> list = new ArrayList<>();
-        list.add("01000");
-        List<Integer> expected = new ArrayList<>();
-        expected.add(1);
-        assertEquals(expected,urinals.countUrinals(list), "Should return 1");
-    }
-    @Test
-    public void countUrinalsTestSix(){
-        System.out.println("===== Manoj Dara == TEST SIX EXECUTED =====");
-        urinals urinals = new urinals();
-        List<String> list = new ArrayList<>();
-        list.add("011");
-        List<Integer> expected = new ArrayList<>();
-        expected.add(-1);
-        assertEquals(expected,urinals.countUrinals(list), "Should return -1");
-    }
+
 }

@@ -45,5 +45,15 @@ class UrinalsTest {
         expected.add(0);
         assertEquals(expected,urinals.countUrinals(list), "Should return 0");
     }
+    @Test
+    public void countUrinalsTestFour(){
+        System.out.println("===== Manoj Dara == TEST FOUR EXECUTED =====");
+        urinals urinals = new urinals();
+        List<String> list = new ArrayList<>();
+        list.add("00000");
+        List<Integer> expected = new ArrayList<>();
+        expected.add(3);
+        assertEquals(expected,urinals.countUrinals(list), "Should return 3");
+    }
 
 }

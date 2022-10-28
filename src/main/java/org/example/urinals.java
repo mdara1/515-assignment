@@ -9,6 +9,10 @@ public class urinals {
         System.out.println(bufferedReader.readLine());
         return bufferedReader.readLine();
     }
+    public int countUrinals(String string){
+        System.out.println("Not yet Implemented");
+        return 2;
+    }
     public static void main(String[] args) throws IOException {
     urinals urinals = new urinals();
         urinals.readInput("urinals.dat");
